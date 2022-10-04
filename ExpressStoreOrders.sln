@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{032C7381-D9CA-49B7-8ED0-B7DDEF1C71DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{80BF209E-4F1F-4DFB-A0D0-9B6952A11486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressStore.Infrastructure", "source\Infrastructure\ExpressStore.Infrastructure\ExpressStore.Infrastructure.csproj", "{51C318B7-ACE7-45D7-A426-A2A3BA7E2C22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{F7BB6B41-5CFD-488E-AD56-20FFB7DD4D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressStore.Modules.Orders", "source\Microservices\ExpressStore.Modules.Orders\ExpressStore.Modules.Orders.csproj", "{B3E5722F-0525-49BB-9B1A-DB8139165DAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7D01B8EA-BF7D-459C-9923-6406CA6C7EA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressStore.Modules.Orders.Tests", "test\ExpressStore.Modules.Orders.Tests\ExpressStore.Modules.Orders.Tests.csproj", "{48480EE7-7CA6-4B4E-AF5E-6203B1EC81D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressStore.Infrastructure.Tests", "test\ExpressStore.Infrastructure.Tests\ExpressStore.Infrastructure.Tests.csproj", "{75C179AF-7D8F-4739-8B48-27FF59364DEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51C318B7-ACE7-45D7-A426-A2A3BA7E2C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C318B7-ACE7-45D7-A426-A2A3BA7E2C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C318B7-ACE7-45D7-A426-A2A3BA7E2C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C318B7-ACE7-45D7-A426-A2A3BA7E2C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E5722F-0525-49BB-9B1A-DB8139165DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E5722F-0525-49BB-9B1A-DB8139165DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E5722F-0525-49BB-9B1A-DB8139165DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E5722F-0525-49BB-9B1A-DB8139165DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48480EE7-7CA6-4B4E-AF5E-6203B1EC81D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48480EE7-7CA6-4B4E-AF5E-6203B1EC81D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48480EE7-7CA6-4B4E-AF5E-6203B1EC81D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48480EE7-7CA6-4B4E-AF5E-6203B1EC81D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C179AF-7D8F-4739-8B48-27FF59364DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C179AF-7D8F-4739-8B48-27FF59364DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C179AF-7D8F-4739-8B48-27FF59364DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C179AF-7D8F-4739-8B48-27FF59364DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80BF209E-4F1F-4DFB-A0D0-9B6952A11486} = {032C7381-D9CA-49B7-8ED0-B7DDEF1C71DD}
+		{51C318B7-ACE7-45D7-A426-A2A3BA7E2C22} = {80BF209E-4F1F-4DFB-A0D0-9B6952A11486}
+		{F7BB6B41-5CFD-488E-AD56-20FFB7DD4D44} = {032C7381-D9CA-49B7-8ED0-B7DDEF1C71DD}
+		{B3E5722F-0525-49BB-9B1A-DB8139165DAA} = {F7BB6B41-5CFD-488E-AD56-20FFB7DD4D44}
+		{48480EE7-7CA6-4B4E-AF5E-6203B1EC81D9} = {7D01B8EA-BF7D-459C-9923-6406CA6C7EA3}
+		{75C179AF-7D8F-4739-8B48-27FF59364DEE} = {7D01B8EA-BF7D-459C-9923-6406CA6C7EA3}
+	EndGlobalSection
+EndGlobal
