@@ -1,7 +1,7 @@
 namespace ExpressStore.Infrastructure.Models
 {
-    public class EntityBase
+    public abstract class EntityBase : EntityBaseWithTypedId<long>
     {
-        
+
     }
 }
